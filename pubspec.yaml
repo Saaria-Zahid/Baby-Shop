@@ -1,0 +1,112 @@
+name: Saz
+description: A new Flutter project.
+
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: '>=3.1.5 <4.0.0'
+
+
+
+#--------------- PACKAGES ------------------#
+dependencies:
+  flutter:
+    sdk: flutter
+
+  # Utility Packages
+  http: 
+  intl: 
+  logger: 
+  url_launcher:
+  flutter_native_splash: 
+  smooth_page_indicator: 
+  connectivity_plus:
+  lottie: 
+
+  # Icons
+  iconsax: 
+  cupertino_icons: 
+
+  # State Management
+  get: 
+  get_storage: 
+
+  # Product Specific
+  readmore: 
+  carousel_slider: 
+  flutter_rating_bar: 
+  capped_progress_indicator: 
+
+  # Firebase
+  firebase_core: 
+  firebase_auth: 
+  cloud_firestore: 
+  firebase_storage: 
+
+
+
+  #--------------- ./ PACKAGES END ------------------#
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+  flutter_lints: 
+
+
+flutter:
+  uses-material-design: true
+
+  #--------------- LOCAL ASSETS ------------------#
+  assets:
+    - assets/logos/
+    - assets/icons/brands/
+    - assets/images/content/
+    - assets/images/banner/
+    - assets/images/reviews/
+    - assets/images/products/
+    - assets/icons/categories/
+    - assets/images/animations/
+    - assets/icons/payment_methods/
+    - assets/images/on_boarding_images/
+    - assets/images/banner/banner_1.jpg
+    - assets/images/banner/banner_2.jpg
+    - assets/images/banner/banner_3.jpg
+    - assets/images/banner/banner_4.jpg
+
+  #--------------- LOCAL FONTS ------------------#
+  fonts:
+    - family: Poppins
+      fonts:
+        - asset: assets/fonts/Poppins-Light.ttf
+          weight: 300
+        - asset: assets/fonts/Poppins-Regular.ttf
+          weight: 400
+        - asset: assets/fonts/Poppins-Italic.ttf
+          style: italic
+        - asset: assets/fonts/Poppins-Medium.ttf
+          weight: 500
+        - asset: assets/fonts/Poppins-MediumItalic.ttf
+          weight: 500
+          style: italic
+        - asset: assets/fonts/Poppins-SemiBold.ttf
+          weight: 600
+        - asset: assets/fonts/Poppins-Bold.ttf
+          weight: 800
+
+flutter_native_splash:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/logo.png
+  image_dark: assets/logos/logo.png
+
+
+android_12:
+  color: "#FFFFFF"
+  color_dark: "#272727"
+  image: assets/logos/logo.png
+  image_dark: assets/logos/logo.png
+
+web: false
+  
